@@ -5,7 +5,7 @@
 	(uuid "d5039a6b-55a2-4d83-8f02-29916993f410")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Cmod_A7_Right:Cmod_A7_Left"
+		(symbol "Cmod_A7:Cmod_A7_Left"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -787,7 +787,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Cmod_A7_Right:Cmod_A7_Right"
+		(symbol "Cmod_A7:Cmod_A7_Right"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -4048,7 +4048,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Cmod_A7_Right:Cmod_A7_Left")
+		(lib_id "Cmod_A7:Cmod_A7_Left")
 		(at 121.92 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4769,7 +4769,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Cmod_A7_Right:Cmod_A7_Right")
+		(lib_id "Cmod_A7:Cmod_A7_Right")
 		(at 151.13 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
