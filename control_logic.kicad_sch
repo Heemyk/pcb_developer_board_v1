@@ -3034,6 +3034,12 @@
 		(color 0 0 0 0)
 		(uuid "180f18f6-b0e6-4e7d-9089-bff40f16719f")
 	)
+	(junction
+		(at 29.21 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e74653d2-239d-4af0-a71f-1fcb0311ad1b")
+	)
 	(wire
 		(pts
 			(xy 162.56 45.72) (xy 167.64 45.72)
@@ -3096,6 +3102,36 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 149.86) (xy 203.2 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37b3af4f-b336-4faa-8bc0-3256e216f91e")
+	)
+	(wire
+		(pts
+			(xy 27.94 152.4) (xy 29.21 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e0a8093-4a74-4ed4-9b76-42ee58c2b68c")
+	)
+	(wire
+		(pts
+			(xy 17.78 152.4) (xy 20.32 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a62b383-84af-4633-afaa-c4eabbcffcf9")
+	)
+	(wire
+		(pts
 			(xy 43.18 140.97) (xy 43.18 144.78)
 		)
 		(stroke
@@ -3116,6 +3152,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 152.4) (xy 44.45 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66661d9f-a357-4a8f-bc0a-bc66721d20ee")
+	)
+	(wire
+		(pts
 			(xy 162.56 99.06) (xy 167.64 99.06)
 		)
 		(stroke
@@ -3126,6 +3172,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 157.48) (xy 29.21 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "797b01dd-ccfd-4f84-8e99-72402083e2d0")
+	)
+	(wire
+		(pts
 			(xy 162.56 40.64) (xy 167.64 40.64)
 		)
 		(stroke
@@ -3133,6 +3189,16 @@
 			(type default)
 		)
 		(uuid "80a94170-baac-4f4f-993c-1e61382597c4")
+	)
+	(wire
+		(pts
+			(xy 29.21 157.48) (xy 29.21 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83bfe812-e59d-47c5-876f-75d584ae90ac")
 	)
 	(wire
 		(pts
@@ -3234,6 +3300,16 @@
 		)
 		(uuid "1c200359-741d-4cad-81a5-7eb017c41997")
 	)
+	(label "TACHOMETER"
+		(at 74.93 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "22389972-0e98-4a87-a4c2-be8ada744cb3")
+	)
 	(label "FPGA_TO_MCU"
 		(at 74.93 147.32 0)
 		(effects
@@ -3253,6 +3329,16 @@
 			(justify left)
 		)
 		(uuid "348ff8de-ed16-42d2-826e-3f3f85739fd3")
+	)
+	(label "TACHOMETER"
+		(at 198.12 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ba2a4fb-e202-42d4-8dc2-cb8a619c6b1e")
 	)
 	(label "DAC_DATA_34"
 		(at 111.76 88.9 0)
@@ -3305,7 +3391,7 @@
 		(uuid "7cbec7ae-190d-44c5-a642-052cc6fbdfeb")
 	)
 	(label "MUTE_3V3"
-		(at 44.45 152.4 180)
+		(at 26.67 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4106,6 +4192,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 24.13 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a9be25a-e7c0-418a-bf5c-87c0ac91c191")
+		(property "Reference" "R54"
+			(at 24.13 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 24.13 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 154.178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 24.13 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e7f2151-dff1-4738-a0ad-028547394384")
+		)
+		(pin "2"
+			(uuid "e550c1b9-7f62-49a3-9c34-96fe8fc13212")
+		)
+		(instances
+			(project "AEC_Speaker_Mic_System"
+				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/b62903f4-3152-49f4-b9de-0aa5889c0444"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 116.84 189.23 180)
 		(unit 1)
@@ -4166,6 +4320,72 @@
 			(project "AEC_Speaker_Mic_System"
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/b62903f4-3152-49f4-b9de-0aa5889c0444"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 17.78 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c5a7e82-05d7-4351-8fcb-3bcf2f826fa6")
+		(property "Reference" "#PWR0417"
+			(at 17.78 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 17.78 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 17.78 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03c7a42b-9ff4-4341-8a39-c883134658ca")
+		)
+		(instances
+			(project "AEC_Speaker_Mic_System"
+				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/b62903f4-3152-49f4-b9de-0aa5889c0444"
+					(reference "#PWR0417")
 					(unit 1)
 				)
 			)
@@ -4617,6 +4837,16 @@
 		(pin "TEMP_OVERRIDE" input
 			(at 203.2 144.78 180)
 			(uuid "8b3980d0-a8e4-40b0-888e-bf20cf52c306")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TACHOMETER" input
+			(at 203.2 149.86 180)
+			(uuid "4570f41b-e757-488d-a18c-46433c60d888")
 			(effects
 				(font
 					(size 1.27 1.27)
