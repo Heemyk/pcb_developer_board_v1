@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AD_2112K-1.8")(type "KiCad")(uri "/Users/krew/Downloads/AP2112K-3.3TRG1/AP2112K-3.3TRG1.kicad_sym")(options "")(descr "High PSRR LDO"))
+  (lib (name "TPA3116D2")(type "KiCad")(uri "/Users/krew/Downloads/TPA3116D2DADR/TPA3116D2DADR.kicad_sym")(options "")(descr "Amplifier (50W-100W, 12V-24V)"))
+  (lib (name "TDK_TS848")(type "KiCad")(uri "${KIPRJMOD}/TDK_TS848.kicad_sym")(options "")(descr ""))
+)

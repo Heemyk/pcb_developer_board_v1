@@ -1,0 +1,512 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 101.6 53.34) (xy 129.54 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20d67b0d-1f3c-43d9-a7ec-7ced7c72aec9")
+	)
+	(wire
+		(pts
+			(xy 101.6 48.26) (xy 129.54 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "348bb56e-c7ac-4665-8faa-8022986a5080")
+	)
+	(wire
+		(pts
+			(xy 101.6 38.1) (xy 129.54 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "514e37c0-094e-4a43-818f-e283e79dace4")
+	)
+	(wire
+		(pts
+			(xy 101.6 43.18) (xy 129.54 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96a3f8b3-dd75-4f20-af9a-856e40d3201b")
+	)
+	(sheet
+		(at 175.26 124.46)
+		(size 30.48 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1f359754-8963-4278-b0fc-0e057045f0f0")
+		(property "Sheetname" "Breakout_5"
+			(at 175.26 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "breakout_board.kicad_sch"
+			(at 175.26 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AEC_Speaker_Mic_System"
+				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 91.44)
+		(size 30.48 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "53a31f69-3ae8-42c4-b16b-bf4423ba2408")
+		(property "Sheetname" "Breakout_1"
+			(at 129.54 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "breakout_board.kicad_sch"
+			(at 129.54 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AEC_Speaker_Mic_System"
+				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 220.98 91.44)
+		(size 30.48 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5b6bff76-1c00-4ff8-b189-bd0a46683e6a")
+		(property "Sheetname" "Breakout_3"
+			(at 220.98 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "breakout_board.kicad_sch"
+			(at 220.98 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AEC_Speaker_Mic_System"
+				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 91.44)
+		(size 76.2 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5fdf442d-1d90-478f-8797-cd1e7de5f87e")
+		(property "Sheetname" "PCB_Power"
+			(at 25.4 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_logic.kicad_sch"
+			(at 25.4 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AEC_Speaker_Mic_System"
+				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 220.98 124.46)
+		(size 30.48 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "89a51368-2ba7-4a3f-afe3-5d1fde30878e")
+		(property "Sheetname" "Breakout_6"
+			(at 220.98 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "breakout_board.kicad_sch"
+			(at 220.98 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AEC_Speaker_Mic_System"
+				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 91.44)
+		(size 30.48 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a283a138-17fa-468a-9410-2c24c1f3e11b")
+		(property "Sheetname" "Breakout_2"
+			(at 175.26 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "breakout_board.kicad_sch"
+			(at 175.26 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AEC_Speaker_Mic_System"
+				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 124.46)
+		(size 30.48 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b49b60b2-4846-4243-abe7-f73c4650f1e7")
+		(property "Sheetname" "Breakout_4"
+			(at 129.54 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "breakout_board.kicad_sch"
+			(at 129.54 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AEC_Speaker_Mic_System"
+				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 22.86)
+		(size 73.66 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b62903f4-3152-49f4-b9de-0aa5889c0444")
+		(property "Sheetname" "PCB_Control"
+			(at 129.54 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "control_logic.kicad_sch"
+			(at 129.54 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DATA_3V3_1" input
+			(at 129.54 38.1 180)
+			(uuid "7782cfb8-fbf4-4146-b9b8-bd1dd3cc3218")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DATA_3V3_2" input
+			(at 129.54 43.18 180)
+			(uuid "0e587c67-d698-45a6-a3be-5cb14344f501")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DATA_3V3_3" input
+			(at 129.54 48.26 180)
+			(uuid "b91199bc-6aa4-4972-a14c-9fd38cc8e96b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DATA_3V3_4" input
+			(at 129.54 53.34 180)
+			(uuid "c0725048-e7af-4af2-aac2-d028e8d53856")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "AEC_Speaker_Mic_System"
+				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 22.86)
+		(size 76.2 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ff66f788-06df-4fa5-89ad-7a9539b69b02")
+		(property "Sheetname" "Hub_Main"
+			(at 25.4 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "diff_hub.kicad_sch"
+			(at 25.4 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DATA_3V3_1" input
+			(at 101.6 38.1 0)
+			(uuid "52da9f86-c38e-4886-9cb4-6da7a598ec7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DATA_3V3_2" input
+			(at 101.6 43.18 0)
+			(uuid "7ae0c498-74ee-4bb4-8e7f-d6edea8b311c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DATA_3V3_3" input
+			(at 101.6 48.26 0)
+			(uuid "71841761-49ca-4efc-a769-ae1030480b86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DATA_3V3_4" input
+			(at 101.6 53.34 0)
+			(uuid "5bf305bc-f724-4b8a-8a86-ac028ef71232")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "AEC_Speaker_Mic_System"
+				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

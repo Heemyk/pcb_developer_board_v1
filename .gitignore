@@ -1,0 +1,25 @@
+# KiCad
+*.bck
+*.tmp
+*.dcm
+*.lib
+*.log
+*.rpt
+*.gbr
+*.cmp
+*.kicad_pcb-bak
+*-cache.lib
+# Eeschema
+*-sch.bck
+# Pcbnew
+*.kicad_pcb.bck
+*.kicad_dru
+*.kicad_pcb-bak
+*.kicad_pcb.orig
+*.kicad_mod
+# Gerbers
+gerbers/
+# 3D
+step/
+# DSN
+*.dsn

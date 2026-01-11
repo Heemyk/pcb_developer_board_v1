@@ -1,0 +1,224 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "60e4777e-24a6-4538-a757-d803db304b45")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 134.62 66.04) (xy 147.32 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51349051-60fa-40c3-8b86-cc82555f89e6")
+	)
+	(wire
+		(pts
+			(xy 134.62 55.88) (xy 147.32 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c08713f-d1b7-4477-995b-aa0eea815e4b")
+	)
+	(wire
+		(pts
+			(xy 134.62 60.96) (xy 147.32 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88cfd0d7-4038-49d2-bc79-de2f06e10d11")
+	)
+	(sheet
+		(at 68.58 96.52)
+		(size 66.04 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "09f4d9e7-7b98-4823-896d-27be6c165bee")
+		(property "Sheetname" "Breakout_Power"
+			(at 68.58 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "breakout_power.kicad_sch"
+			(at 68.58 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AEC_Speaker_Mic_System"
+				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/53a31f69-3ae8-42c4-b16b-bf4423ba2408"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 43.18)
+		(size 71.12 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c37e8d3e-fbc2-4d58-ade5-5f1053f7602e")
+		(property "Sheetname" "Breakout_Hub"
+			(at 147.32 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "diff_hub_breakout.kicad_sch"
+			(at 147.32 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DATA_3V3" input
+			(at 147.32 66.04 180)
+			(uuid "dc6aed01-d915-4aaf-928e-5e8a436ce887")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LRCK_3V3" input
+			(at 147.32 60.96 180)
+			(uuid "8959edbd-3ece-443d-9a03-3a6c0802a942")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BCLK_3V3" input
+			(at 147.32 55.88 180)
+			(uuid "4097b200-5df9-49e8-ac00-a5ad304350c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "AEC_Speaker_Mic_System"
+				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/53a31f69-3ae8-42c4-b16b-bf4423ba2408"
+					(page "26")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 43.18)
+		(size 66.04 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d1385823-971f-4925-a1fc-af367dd7f436")
+		(property "Sheetname" "Breakout_Control"
+			(at 68.58 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "breakout_control.kicad_sch"
+			(at 68.58 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BCLK_3V3" input
+			(at 134.62 55.88 0)
+			(uuid "aa087f0e-62ef-4fb8-87c3-35c2df037307")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WS_3V3" input
+			(at 134.62 60.96 0)
+			(uuid "9ff0e0b2-ca5e-4196-a308-3aabf1933ea7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DATA_3V3" input
+			(at 134.62 66.04 0)
+			(uuid "7063e60d-1695-4116-8aba-e383ca8d32d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "AEC_Speaker_Mic_System"
+				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/53a31f69-3ae8-42c4-b16b-bf4423ba2408"
+					(page "32")
+				)
+			)
+		)
+	)
+)
