@@ -5,7 +5,7 @@
 	(uuid "91d7cd29-38c4-4c5e-9ac3-2d9f3f565206")
 	(paper "A4")
 	(lib_symbols
-		(symbol "AD_2112K-1.8:AP2112K-3.3TRG1"
+		(symbol "AP_2112K-1.8:AP2112K-3.3TRG1"
 			(pin_names
 				(offset 1.016)
 			)
@@ -160,8 +160,8 @@
 			)
 			(symbol "AP2112K-3.3TRG1_0_0"
 				(rectangle
-					(start -7.62 -7.62)
-					(end 7.62 7.62)
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
 					(stroke
 						(width 0.41)
 						(type default)
@@ -238,6 +238,26 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AP2112K-3.3TRG1_1_0"
+				(pin no_connect line
+					(at 11.43 0 180)
+					(length 3.81)
+					(name "ADJNC"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.0254 0.0254)
 							)
 						)
 					)
@@ -857,7 +877,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 142.5448 49.53 0)
 			(effects
 				(font
@@ -1043,7 +1063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:IND-SMD_L10.4-W10.3"
 			(at 120.3452 57.15 0)
 			(effects
 				(font
@@ -1106,7 +1126,7 @@
 		)
 	)
 	(symbol
-		(lib_id "AD_2112K-1.8:AP2112K-3.3TRG1")
+		(lib_id "AP_2112K-1.8:AP2112K-3.3TRG1")
 		(at 59.69 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1271,6 +1291,9 @@
 		(pin "3"
 			(uuid "5c55bc0c-0511-4dfc-bf41-2ad6511f4cdf")
 		)
+		(pin "4"
+			(uuid "6ee99b40-15a8-4ff9-ba0c-94ca696c48ed")
+		)
 		(instances
 			(project "AEC_Speaker_Mic_System"
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/1f359754-8963-4278-b0fc-0e057045f0f0/09f4d9e7-7b98-4823-896d-27be6c165bee"
@@ -1328,7 +1351,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 42.8752 57.15 0)
 			(effects
 				(font
@@ -1418,7 +1441,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 75.2348 49.53 0)
 			(effects
 				(font

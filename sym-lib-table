@@ -4,4 +4,8 @@
   (lib (name "TPA3116D2DADR")(type "KiCad")(uri "/Users/krew/Documents/KiCad/9.0/footprints/TPA3116D2DADR/TPA3116D2DADR.kicad_sym")(options "")(descr "Amplifier (50W-100W, 12V-24V)"))
   (lib (name "TDK_TS848")(type "KiCad")(uri "${KIPRJMOD}/TDK_TS848.kicad_sym")(options "")(descr "High SNR Microphones"))
   (lib (name "Cmod_A7")(type "KiCad")(uri "${KIPRJMOD}/Cmod_A7.kicad_sym")(options "")(descr "Cmod Headers"))
+  (lib (name "Fuse_Clip_Symbol")(type "KiCad")(uri "${KIPRJMOD}/Fuse_Clip_Symbol.kicad_sym")(options "")(descr ""))
+  (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/New_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "D_Zener_BZX84")(type "KiCad")(uri "${KIPRJMOD}/D_Zener_BZX84.kicad_sym")(options "")(descr ""))
+  (lib (name "XT60_Header")(type "KiCad")(uri "${KIPRJMOD}/XT60_Header.kicad_sym")(options "")(descr ""))
 )

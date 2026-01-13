@@ -1,4 +1,4 @@
-27246489507103868
+27301305153912342
 AP2112K-3.3TRG1
 SOT95P285X140-5N
 
@@ -2954,6 +2954,13 @@ Gauge Massstab 100mm SilkScreenTop Type 2
 0
 0
 Capacitor_SMD
+CAP-SMD_BD18.0-L19.0-W19.0-FD_EEEFK1E472SV
+
+
+0
+2
+2
+Capacitor_SMD
 CP_Elec_3x5.3
 SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics 
 Capacitor Electrolytic
@@ -3674,6 +3681,20 @@ trimmer capacitor SMD horizontal, http://www.knowlescapacitors.com/File%20Librar
 0
 2
 2
+Capacitor_SMD
+SMC_L7.1-W6.2-LS8.1-R-RD
+
+
+0
+2
+2
+Capacitor_SMD
+Untitled
+
+
+0
+0
+0
 Capacitor_THT
 CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal
 CP, Axial series, Axial, Horizontal, pin pitch=15mm, length*diameter=10*4.5mm^2, Electrolytic Capacitor, http://www.vishay.com/docs/28325/021asm.pdf
@@ -6895,6 +6916,20 @@ http://www.lsmtron.com/pdf/Connector&Antenna_catalog.PDF
 34
 34
 Connector
+HDR-TH_24P-P2.54-V-F
+
+
+0
+24
+24
+Connector
+HDR-TH_24P-P2.54-V-F-RIGHT_SIDE_NUMBERING
+
+
+0
+24
+24
+Connector
 IHI_B6A-PCB-45_Vertical
 https://lugsdirect.com/PDF_Webprint/B6A-PCB-45-XX(-X).pdf
 connector IHI B6A-PCB-45
@@ -6929,6 +6964,13 @@ board-to-board
 0
 30
 30
+Connector
+RJ45-SMD_HC-RJ45-055-4_2
+
+
+0
+12
+10
 Connector
 SpringContact_Harwin_S1941-46R
 7.25mm SMT Multi-directional Spring Contact (T+R), https://cdn.harwin.com/pdfs/S1941R.pdf
@@ -6978,6 +7020,20 @@ tag connect programming header pogo pins
 0
 14
 14
+Connector
+Untitled
+
+
+0
+0
+0
+Connector
+Untitled_1
+
+
+0
+24
+24
 Connector_AMASS
 AMASS_MR30PW-FB_1x03_P3.50mm_Horizontal
 Connector MR30 Horizontal PCB Female, https://www.tme.eu/Document/4a6895c4a2c7eddf355b391fd904cb53/MR30PW-FB.pdf
@@ -60704,6 +60760,13 @@ DFS
 4
 4
 Diode_SMD
+Diode_SMC_L7.1-W6.2-LS8.1-R-RD
+
+
+0
+2
+2
+Diode_SMD
 Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm
 Infineon  SG-WLL-2-3, 0.58x0.28x0.15mm, https://www.infineon.com/dgdl/Infineon-SG-WLL-2-3_SPO_PDF-Package-v02_00-EN.pdf?fileId=5546d46271bf4f9201723159ce71239d
 Infineon WLL
@@ -60753,12 +60816,47 @@ QFN-2L Diode
 2
 2
 Diode_SMD
+TO-277_3P-L5.4-W4.0-LS6.5-BR
+
+
+0
+3
+3
+Diode_SMD
+Untitled
+
+
+0
+0
+0
+Diode_SMD
+Untitled_1
+
+
+0
+0
+0
+Diode_SMD
+Untitled_2
+
+
+0
+0
+0
+Diode_SMD
 Vishay_SMPA
 Diode SMPA (DO-221BC), https://www.vishay.com/docs/87659/v8pa10.pdf
 Diode SMPA (DO-221BC)
 0
 2
 2
+Diode_SMD
+Zener_SOT-23_L2.9-W1.3-P1.90-LS2.4-BR
+
+
+0
+3
+3
 Diode_THT
 D_5KPW_P7.62mm_Vertical_AnodeUp
 Diode, 5KPW series, Axial, Vertical, pin pitch=7.62mm, length*diameter=9*8mm^2, http://www.diodes.com/_files/packages/8686949.gif
@@ -62419,6 +62517,20 @@ emi filter
 5
 5
 Fuse
+BAT-SMD_3586
+
+
+0
+3
+3
+Fuse
+F1206_32V_12A
+
+
+0
+2
+2
+Fuse
 FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165
 Littelfuse fuse holder for ATO/FKS blade fuses, 80V, vertical, 20 x 6mm, PCB thickness up to 1.5mm, http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/ato/littelfuse-fuse-holder-ato-flr-pcb-datasheet.pdf
 ATO FKS blade fuse holder
@@ -63279,6 +63391,20 @@ GDT 3R-6
 0
 3
 3
+Fuse
+Untitled
+
+
+0
+0
+0
+Fuse
+Untitled_1
+
+
+0
+0
+0
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -63496,6 +63622,13 @@ heatsink
 0
 0
 0
+Inductor_SMD
+IND-SMD_L10.4-W10.3
+
+
+0
+2
+2
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -68326,6 +68459,20 @@ air coil inductor wurth we cair
 0
 2
 2
+Inductor_SMD
+Untitled
+
+
+0
+0
+0
+Inductor_SMD
+Untitled_1
+
+
+0
+0
+0
 Inductor_SMD_Wurth
 L_Wurth_WE-LQSH-2010
 Semi-Shielded High Saturation Power Inductor, body 2x1.6mm, https://www.we-online.com/catalog/en/WE-LQSH#/articles/WE-LQSH-2010
@@ -95045,6 +95192,20 @@ Potentiometer vertical vishay
 0
 3
 3
+Potentiometer_THT
+RES-ADJ-TH_3362P
+
+
+0
+3
+3
+Potentiometer_THT
+Untitled
+
+
+0
+0
+0
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
@@ -96089,6 +96250,13 @@ Taiyo Yuden NRF51822 Module Bluetooth
 30
 28
 RF_Module
+Untitled
+
+
+0
+0
+0
+RF_Module
 WEMOS_C3_mini
 16-pin module, column spacing 22.86 mm (900 mils), https://www.wemos.cc/en/latest/_static/files/dim_c3_mini_v1.0.0.pdf
 ESP32-C3 WiFi microcontroller
@@ -96102,6 +96270,13 @@ ESP8266 WiFi microcontroller
 0
 16
 16
+RF_Module
+WIRELM-SMD_ESP32-S3-WROOM-1_N16R8
+
+
+0
+49
+41
 RF_Module
 ZETA-433-SO_SMD
 RF transceiver SMD style https://www.rfsolutions.co.uk/downloads/1456219226DS-ZETA.pdf
@@ -100771,6 +100946,20 @@ Logo WEEE
 0
 0
 0
+T5848
+TDK_T5848_Pad
+
+
+0
+15
+8
+T5848
+Untitled
+
+
+0
+0
+0
 TPA3116D2DADR
 SOP65P810X115-33N
 
@@ -102725,6 +102914,13 @@ THT Terminal Block Philmore  pitch 5mm size 15x10.2mm drill 1.2mm pad 2.4mm
 3
 3
 TerminalBlock_Phoenix
+CONN-TH_2P-P5.00_WJ500V-5.08-2P
+
+
+0
+2
+2
+TerminalBlock_Phoenix
 TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal
 Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix
 THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm drill 1.3mm pad 2.6mm
@@ -103606,6 +103802,13 @@ PhoenixContact PTSM0,5 8 HV 2,5mm vertical SMD spring clamp terminal block conne
 0
 10
 9
+TerminalBlock_Phoenix
+Untitled
+
+
+0
+0
+0
 TerminalBlock_RND
 TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal
 terminal block RND 205-00001, 2 pins, pitch 5mm, size 10x9mm, drill diameter 1.3mm, pad diameter 2.5mm, http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00001_DB_EN.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_RND
@@ -107918,3 +108121,17 @@ Varistor VF
 0
 2
 2
+XT60-PW-M
+CONN-TH_XT60PW-M
+
+
+0
+4
+4
+XT60-PW-M
+Untitled
+
+
+0
+0
+0

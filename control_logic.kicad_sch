@@ -5,7 +5,7 @@
 	(uuid "d5039a6b-55a2-4d83-8f02-29916993f410")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Cmod_A7_Right:Cmod_A7_Left"
+		(symbol "Cmod_A7:Cmod_A7_Left"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -787,7 +787,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Cmod_A7_Right:Cmod_A7_Right"
+		(symbol "Cmod_A7:Cmod_A7_Right"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -3055,20 +3055,12 @@
 		(uuid "0883af39-f118-466a-bbf9-ffd3ce0f78e5")
 	)
 	(no_connect
-		(at 44.45 172.72)
-		(uuid "148805a4-c5b4-43ed-bd46-52f8e587e32b")
-	)
-	(no_connect
 		(at 116.84 186.69)
 		(uuid "154ff563-7a80-40d5-818f-582099685ca7")
 	)
 	(no_connect
 		(at 156.21 186.69)
 		(uuid "1eb234e9-45c0-4be7-b774-270056be699d")
-	)
-	(no_connect
-		(at 44.45 167.64)
-		(uuid "2200fe6b-9d43-44bc-9dab-4c1a8e256178")
 	)
 	(no_connect
 		(at 116.84 156.21)
@@ -3149,10 +3141,6 @@
 	(no_connect
 		(at 74.93 167.64)
 		(uuid "7e072887-3875-4586-b1f7-672fa020635a")
-	)
-	(no_connect
-		(at 156.21 140.97)
-		(uuid "86d84fe3-9dd8-4d18-9e34-d1bcded9a3d4")
 	)
 	(no_connect
 		(at 156.21 181.61)
@@ -3239,20 +3227,8 @@
 		(uuid "e2ff5502-79c4-47d4-8ca9-c3645fd3dcd5")
 	)
 	(no_connect
-		(at 44.45 170.18)
-		(uuid "e38f6d56-79e2-4b30-91c9-9545b3246d05")
-	)
-	(no_connect
 		(at 156.21 179.07)
 		(uuid "e91feab2-7a70-436c-8074-111a880f2e74")
-	)
-	(no_connect
-		(at 156.21 143.51)
-		(uuid "eb24c166-9ddc-4e7d-8256-d759c075713c")
-	)
-	(no_connect
-		(at 44.45 165.1)
-		(uuid "ef09f0c4-16ff-41ca-adb3-91eee869a9ad")
 	)
 	(no_connect
 		(at 156.21 151.13)
@@ -3284,6 +3260,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 104.14) (xy 167.64 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "033d04fd-399d-42c6-866e-6dcc3400c344")
+	)
+	(wire
+		(pts
 			(xy 162.56 45.72) (xy 167.64 45.72)
 		)
 		(stroke
@@ -3291,6 +3277,16 @@
 			(type default)
 		)
 		(uuid "135f13f0-b5c3-4e59-a78e-80d5ab50dcb7")
+	)
+	(wire
+		(pts
+			(xy 106.68 50.8) (xy 111.76 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "170ace5f-8897-4741-b502-5a2fd58dde27")
 	)
 	(wire
 		(pts
@@ -3464,6 +3460,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 50.8) (xy 167.64 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "985256ee-93f9-4698-a5f6-2564b6634eac")
+	)
+	(wire
+		(pts
 			(xy 106.68 93.98) (xy 111.76 93.98)
 		)
 		(stroke
@@ -3471,6 +3477,16 @@
 			(type default)
 		)
 		(uuid "99e986ba-de28-4341-b565-35f6903e9cbe")
+	)
+	(wire
+		(pts
+			(xy 106.68 104.14) (xy 111.76 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0a5b05b-7e02-46fb-8e23-9aa33f8c16ab")
 	)
 	(wire
 		(pts
@@ -3532,7 +3548,7 @@
 		)
 		(uuid "194668c4-3cea-4a1b-9a36-d66f66e8da33")
 	)
-	(label "AMP_FAULT_34"
+	(label "AMP_FAULT_3"
 		(at 111.76 99.06 0)
 		(effects
 			(font
@@ -3562,8 +3578,18 @@
 		)
 		(uuid "2b470d4f-516f-4d79-9613-516d49725f22")
 	)
+	(label "AMP_FAULT_8"
+		(at 162.56 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f83fd26-8c18-4344-a41d-37da9ef0e9a5")
+	)
 	(label "DAC_DATA_34"
-		(at 156.21 133.35 0)
+		(at 156.21 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3592,7 +3618,7 @@
 		)
 		(uuid "3ba7e324-c4d5-42bf-b32a-2b482e35cda9")
 	)
-	(label "AMP_FAULT_78"
+	(label "AMP_FAULT_4"
 		(at 44.45 162.56 180)
 		(effects
 			(font
@@ -3612,7 +3638,7 @@
 		)
 		(uuid "4e64d5d8-2ab5-4fd3-9741-d46b2fcf2be9")
 	)
-	(label "AMP_FAULT_56"
+	(label "AMP_FAULT_5"
 		(at 162.56 45.72 180)
 		(effects
 			(font
@@ -3621,6 +3647,46 @@
 			(justify right)
 		)
 		(uuid "582dcd3f-1bea-4691-a51a-207778703217")
+	)
+	(label "AMP_FAULT_6"
+		(at 44.45 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5cbeca22-de90-46ae-83d2-af2f2e615987")
+	)
+	(label "AMP_FAULT_5"
+		(at 44.45 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67ca8119-ee5c-46b1-ae10-81baa8ccd1c7")
+	)
+	(label "AMP_FAULT_6"
+		(at 162.56 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6b9e363d-6ec2-4c62-a833-b642e6d91611")
+	)
+	(label "AMP_FAULT_7"
+		(at 44.45 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6fe00d67-beb9-48ae-8550-3000bb891220")
 	)
 	(label "DAC_DATA_78"
 		(at 162.56 88.9 180)
@@ -3652,7 +3718,7 @@
 		)
 		(uuid "81a7dfeb-97ce-48e9-97f5-bd4c6ec81211")
 	)
-	(label "AMP_FAULT_34"
+	(label "AMP_FAULT_2"
 		(at 44.45 157.48 180)
 		(effects
 			(font
@@ -3671,6 +3737,16 @@
 			(justify right)
 		)
 		(uuid "850ad997-6264-40c0-8663-038497c2a5bf")
+	)
+	(label "AMP_FAULT_4"
+		(at 111.76 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93cdb261-b057-4336-afc5-cb9917dcea7a")
 	)
 	(label "TEMP_OVERRIDE"
 		(at 74.93 190.5 0)
@@ -3693,7 +3769,7 @@
 		(uuid "9a80f215-ac4f-47d2-a9ee-b728c95166c3")
 	)
 	(label "DAC_DATA_12"
-		(at 156.21 130.81 0)
+		(at 156.21 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3702,7 +3778,7 @@
 		)
 		(uuid "9ebc30f5-be36-417f-ad67-b2158a3f773f")
 	)
-	(label "AMP_FAULT_12"
+	(label "AMP_FAULT_1"
 		(at 111.76 45.72 0)
 		(effects
 			(font
@@ -3713,7 +3789,7 @@
 		(uuid "9f6d54d5-e3dc-4f41-b1e4-359e650d5366")
 	)
 	(label "DAC_DATA_56"
-		(at 156.21 135.89 0)
+		(at 156.21 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3722,7 +3798,7 @@
 		)
 		(uuid "ab4674c5-03ad-447b-b61d-68394abd091d")
 	)
-	(label "AMP_FAULT_78"
+	(label "AMP_FAULT_7"
 		(at 162.56 99.06 180)
 		(effects
 			(font
@@ -3732,7 +3808,7 @@
 		)
 		(uuid "ae577ea4-204f-4ca4-8d48-4a7fd216f5e2")
 	)
-	(label "AMP_FAULT_12"
+	(label "AMP_FAULT_1"
 		(at 44.45 154.94 180)
 		(effects
 			(font
@@ -3743,7 +3819,7 @@
 		(uuid "b5daed49-572b-4fc8-9726-352a427085be")
 	)
 	(label "DAC_DATA_78"
-		(at 156.21 138.43 0)
+		(at 156.21 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3772,6 +3848,16 @@
 		)
 		(uuid "d1845b9a-947e-4e80-93e6-489724bc0ceb")
 	)
+	(label "AMP_FAULT_2"
+		(at 111.76 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d1c61441-299f-43e5-8f69-2f11a90b158e")
+	)
 	(label "MCU_TO_FPGA"
 		(at 116.84 181.61 180)
 		(effects
@@ -3782,7 +3868,17 @@
 		)
 		(uuid "dc418ca5-d3a9-4c59-8062-d99903c51d2e")
 	)
-	(label "AMP_FAULT_56"
+	(label "AMP_FAULT_8"
+		(at 44.45 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e99a2393-88fe-43d8-8ea5-1de4d9bc74dc")
+	)
+	(label "AMP_FAULT_3"
 		(at 44.45 160.02 180)
 		(effects
 			(font
@@ -3802,6 +3898,28 @@
 		)
 		(uuid "f3c35b30-d97f-43ae-a984-2ad5685934e9")
 	)
+	(global_label "I2S_BCLK_SPK"
+		(shape input)
+		(at 156.21 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2836faf8-6f12-4a4d-ab9b-90b48ac7911b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.7418 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2S_BCLK"
 		(shape input)
 		(at 116.84 130.81 180)
@@ -3820,6 +3938,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2S_LRCK_SPK"
+		(shape input)
+		(at 156.21 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "89b85389-16e6-4ed0-80ad-6fdff2d8f371")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.7418 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4005,7 +4145,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 36.5252 144.78 0)
 			(effects
 				(font
@@ -4048,7 +4188,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Cmod_A7_Right:Cmod_A7_Left")
+		(lib_id "Cmod_A7:Cmod_A7_Left")
 		(at 121.92 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4074,7 +4214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:HDR-TH_24P-P2.54-V-F"
 			(at 121.92 158.75 0)
 			(effects
 				(font
@@ -4093,6 +4233,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x24, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 121.92 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C41376163"
 			(at 121.92 158.75 0)
 			(effects
 				(font
@@ -4370,6 +4519,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2913202"
+			(at 59.69 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f683d176-021d-467a-b83e-51830b9af81f")
 		)
@@ -4594,7 +4752,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 24.13 154.178 90)
 			(effects
 				(font
@@ -4769,14 +4927,13 @@
 		)
 	)
 	(symbol
-		(lib_id "Cmod_A7_Right:Cmod_A7_Right")
+		(lib_id "Cmod_A7:Cmod_A7_Right")
 		(at 151.13 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "df502306-c1c2-4706-814a-a3bc54dce61c")
 		(property "Reference" "J29"
 			(at 151.13 124.46 0)
@@ -4794,7 +4951,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:HDR-TH_24P-P2.54-V-F-RIGHT_SIDE_NUMBERING"
 			(at 151.13 158.75 0)
 			(effects
 				(font
@@ -4813,6 +4970,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x24, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 151.13 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C41376163"
 			(at 151.13 158.75 0)
 			(effects
 				(font
@@ -4997,7 +5163,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 41.402 137.16 90)
 			(effects
 				(font
@@ -5155,9 +5321,19 @@
 				(justify right)
 			)
 		)
-		(pin "AMP_FAULT" input
+		(pin "AMP_FAULT_L" input
 			(at 106.68 45.72 0)
-			(uuid "fc91ba76-bbf5-4c47-8abe-65e51c337d7d")
+			(uuid "ba55efa8-65bd-437a-b3e4-d32a9801ab7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AMP_FAULT_R" input
+			(at 106.68 50.8 0)
+			(uuid "df7a4ad5-79f8-4834-979c-4df133239f9f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5227,9 +5403,19 @@
 				(justify right)
 			)
 		)
-		(pin "AMP_FAULT" input
+		(pin "AMP_FAULT_L" input
 			(at 106.68 99.06 0)
-			(uuid "b46db581-0467-4a46-9366-5ee7c7a40b5e")
+			(uuid "40cb99f6-f67f-4dc9-b168-f4c33d5a1ae5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AMP_FAULT_R" input
+			(at 106.68 104.14 0)
+			(uuid "3a981517-b01a-4959-b21a-ae10ff53289d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5299,9 +5485,19 @@
 				(justify left)
 			)
 		)
-		(pin "AMP_FAULT" input
+		(pin "AMP_FAULT_L" input
 			(at 167.64 99.06 180)
-			(uuid "29bb7fcb-ec19-49f1-b5a9-be06156650e8")
+			(uuid "ac444e23-9191-4d01-b89d-4cf0b0eafe83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AMP_FAULT_R" input
+			(at 167.64 104.14 180)
+			(uuid "27dd55ca-9a85-432e-b462-e90711db21c2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5371,9 +5567,19 @@
 				(justify left)
 			)
 		)
-		(pin "AMP_FAULT" input
+		(pin "AMP_FAULT_L" input
 			(at 167.64 45.72 180)
-			(uuid "4e063ab0-4447-4458-bdf7-581d6a4a6943")
+			(uuid "070ff5cc-b463-41ee-ac14-59ae4249bca3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AMP_FAULT_R" input
+			(at 167.64 50.8 180)
+			(uuid "ed532bfd-7845-4ae0-8791-e149230a2439")
 			(effects
 				(font
 					(size 1.27 1.27)
