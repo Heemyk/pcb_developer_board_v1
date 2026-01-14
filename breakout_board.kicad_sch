@@ -407,7 +407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f5fedd4-38ab-44ac-897a-549a01149221")
-		(property "Reference" "#FLG021"
+		(property "Reference" "#FLG07"
 			(at 167.005 138.43 0)
 			(effects
 				(font
@@ -458,27 +458,27 @@
 		(instances
 			(project "AEC_Speaker_Mic_System"
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/1f359754-8963-4278-b0fc-0e057045f0f0"
-					(reference "#FLG026")
+					(reference "#FLG019")
 					(unit 1)
 				)
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/53a31f69-3ae8-42c4-b16b-bf4423ba2408"
-					(reference "#FLG021")
+					(reference "#FLG07")
 					(unit 1)
 				)
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/5b6bff76-1c00-4ff8-b189-bd0a46683e6a"
-					(reference "#FLG024")
+					(reference "#FLG013")
 					(unit 1)
 				)
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/89a51368-2ba7-4a3f-afe3-5d1fde30878e"
-					(reference "#FLG027")
+					(reference "#FLG022")
 					(unit 1)
 				)
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/a283a138-17fa-468a-9410-2c24c1f3e11b"
-					(reference "#FLG023")
+					(reference "#FLG010")
 					(unit 1)
 				)
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/b49b60b2-4846-4243-abe7-f73c4650f1e7"
-					(reference "#FLG025")
+					(reference "#FLG016")
 					(unit 1)
 				)
 			)
@@ -494,7 +494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51b35af2-85e4-4fbd-bdae-31705637bdf7")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG05"
 			(at 167.005 123.19 0)
 			(effects
 				(font
@@ -545,27 +545,27 @@
 		(instances
 			(project ""
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/1f359754-8963-4278-b0fc-0e057045f0f0"
-					(reference "#FLG07")
+					(reference "#FLG017")
 					(unit 1)
 				)
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/53a31f69-3ae8-42c4-b16b-bf4423ba2408"
-					(reference "#FLG03")
-					(unit 1)
-				)
-				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/5b6bff76-1c00-4ff8-b189-bd0a46683e6a"
 					(reference "#FLG05")
 					(unit 1)
 				)
+				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/5b6bff76-1c00-4ff8-b189-bd0a46683e6a"
+					(reference "#FLG011")
+					(unit 1)
+				)
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/89a51368-2ba7-4a3f-afe3-5d1fde30878e"
-					(reference "#FLG08")
+					(reference "#FLG020")
 					(unit 1)
 				)
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/a283a138-17fa-468a-9410-2c24c1f3e11b"
-					(reference "#FLG04")
+					(reference "#FLG08")
 					(unit 1)
 				)
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/b49b60b2-4846-4243-abe7-f73c4650f1e7"
-					(reference "#FLG06")
+					(reference "#FLG014")
 					(unit 1)
 				)
 			)
@@ -581,7 +581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbc08459-f02d-4c29-9d9f-a2dfc68dd5bb")
-		(property "Reference" "#FLG09"
+		(property "Reference" "#FLG06"
 			(at 167.005 128.27 0)
 			(effects
 				(font
@@ -632,27 +632,27 @@
 		(instances
 			(project "AEC_Speaker_Mic_System"
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/1f359754-8963-4278-b0fc-0e057045f0f0"
-					(reference "#FLG013")
+					(reference "#FLG018")
 					(unit 1)
 				)
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/53a31f69-3ae8-42c4-b16b-bf4423ba2408"
-					(reference "#FLG09")
+					(reference "#FLG06")
 					(unit 1)
 				)
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/5b6bff76-1c00-4ff8-b189-bd0a46683e6a"
-					(reference "#FLG011")
+					(reference "#FLG012")
 					(unit 1)
 				)
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/89a51368-2ba7-4a3f-afe3-5d1fde30878e"
-					(reference "#FLG014")
+					(reference "#FLG021")
 					(unit 1)
 				)
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/a283a138-17fa-468a-9410-2c24c1f3e11b"
-					(reference "#FLG010")
+					(reference "#FLG09")
 					(unit 1)
 				)
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/b49b60b2-4846-4243-abe7-f73c4650f1e7"
-					(reference "#FLG012")
+					(reference "#FLG015")
 					(unit 1)
 				)
 			)

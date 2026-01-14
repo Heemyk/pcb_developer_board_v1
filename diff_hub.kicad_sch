@@ -1443,7 +1443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1dd5270c-df94-4a8b-b45a-d9220532c83c")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR034"
 			(at 40.64 43.18 0)
 			(effects
 				(font
@@ -1494,7 +1494,7 @@
 		(instances
 			(project "AEC_Speaker_Mic_System"
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/ff66f788-06df-4fa5-89ad-7a9539b69b02"
-					(reference "#PWR030")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -1510,7 +1510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "300225d1-0079-4b81-a2b6-fa42a67db345")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR035"
 			(at 40.64 45.72 0)
 			(effects
 				(font
@@ -1561,7 +1561,7 @@
 		(instances
 			(project "AEC_Speaker_Mic_System"
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/ff66f788-06df-4fa5-89ad-7a9539b69b02"
-					(reference "#PWR031")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -1577,7 +1577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ff69de3-73e8-461e-b08f-4d57cd1dfb6b")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR040"
 			(at 91.44 45.72 0)
 			(effects
 				(font
@@ -1628,7 +1628,7 @@
 		(instances
 			(project "AEC_Speaker_Mic_System"
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/ff66f788-06df-4fa5-89ad-7a9539b69b02"
-					(reference "#PWR036")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -1644,7 +1644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4da7fea7-3f9e-4de7-a107-0f29fc0a6cef")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR037"
 			(at 46.99 67.31 0)
 			(effects
 				(font
@@ -1694,7 +1694,7 @@
 		(instances
 			(project "AEC_Speaker_Mic_System"
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/ff66f788-06df-4fa5-89ad-7a9539b69b02"
-					(reference "#PWR033")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -1710,7 +1710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4de12f9b-f1b1-4540-a2f7-1f9b42c277d6")
-		(property "Reference" "C10"
+		(property "Reference" "C12"
 			(at 44.45 25.3999 0)
 			(effects
 				(font
@@ -1764,7 +1764,7 @@
 		(instances
 			(project "AEC_Speaker_Mic_System"
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/ff66f788-06df-4fa5-89ad-7a9539b69b02"
-					(reference "C10")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -1780,7 +1780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52caa165-23a6-4bac-9080-89b0fcee37c5")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR042"
 			(at 97.79 67.31 0)
 			(effects
 				(font
@@ -1830,7 +1830,7 @@
 		(instances
 			(project "AEC_Speaker_Mic_System"
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/ff66f788-06df-4fa5-89ad-7a9539b69b02"
-					(reference "#PWR038")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -1846,7 +1846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "635126c8-6967-4892-b22c-e98cf51e7c4a")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR041"
 			(at 97.79 22.86 0)
 			(effects
 				(font
@@ -1897,7 +1897,7 @@
 		(instances
 			(project "AEC_Speaker_Mic_System"
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/ff66f788-06df-4fa5-89ad-7a9539b69b02"
-					(reference "#PWR037")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -1913,7 +1913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fe03185-c48d-4d18-adc5-2aaf871cc98c")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR038"
 			(at 85.09 34.29 0)
 			(effects
 				(font
@@ -1963,7 +1963,7 @@
 		(instances
 			(project "AEC_Speaker_Mic_System"
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/ff66f788-06df-4fa5-89ad-7a9539b69b02"
-					(reference "#PWR034")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -1979,7 +1979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2961606-1a24-4a40-a2fb-3df7b3a7760b")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR033"
 			(at 34.29 34.29 0)
 			(effects
 				(font
@@ -2029,7 +2029,7 @@
 		(instances
 			(project "AEC_Speaker_Mic_System"
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/ff66f788-06df-4fa5-89ad-7a9539b69b02"
-					(reference "#PWR029")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -2133,7 +2133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d62662ba-6d9b-4e4d-8747-c3e0e813b9e8")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR039"
 			(at 91.44 43.18 0)
 			(effects
 				(font
@@ -2184,7 +2184,7 @@
 		(instances
 			(project "AEC_Speaker_Mic_System"
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/ff66f788-06df-4fa5-89ad-7a9539b69b02"
-					(reference "#PWR035")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -2200,7 +2200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1e34a05-0168-4d1e-80a8-510caebe756b")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR036"
 			(at 46.99 22.86 0)
 			(effects
 				(font
@@ -2251,7 +2251,7 @@
 		(instances
 			(project "AEC_Speaker_Mic_System"
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/ff66f788-06df-4fa5-89ad-7a9539b69b02"
-					(reference "#PWR032")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -2267,7 +2267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff8efa17-cc5b-46a3-8a80-f42e289b962f")
-		(property "Reference" "C11"
+		(property "Reference" "C13"
 			(at 95.25 25.3999 0)
 			(effects
 				(font
@@ -2321,7 +2321,7 @@
 		(instances
 			(project "AEC_Speaker_Mic_System"
 				(path "/b4ee80b5-9d9a-4551-9b0c-6a8cb8d78ca3/ff66f788-06df-4fa5-89ad-7a9539b69b02"
-					(reference "C11")
+					(reference "C13")
 					(unit 1)
 				)
 			)
