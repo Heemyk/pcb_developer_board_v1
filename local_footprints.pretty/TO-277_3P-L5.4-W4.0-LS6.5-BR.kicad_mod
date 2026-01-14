@@ -1,0 +1,327 @@
+(footprint "TO-277_3P-L5.4-W4.0-LS6.5-BR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.877375 -3.0005 0)
+		(layer "F.SilkS")
+		(uuid "73a2b25d-7639-4c1a-8b67-183af57be639")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "D_Schottky"
+		(at -0.877375 3.030433 0)
+		(layer "F.Fab")
+		(uuid "381c5a90-a407-432e-b6cb-bfb658f00993")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://item.szlcsc.com/datasheet/SL1545/66092.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f307e2a-ad0f-4520-b9c7-a1def1235eaf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Voltage - Forward(Vf@If):480mV@15A Voltage - DC Reverse(Vr):45V Current - Rectified:15A Reverse Leakage Current (Ir):100uA@45V Operating Junction Temperature Range:-55°C~+150°C Operating Junction Temperature Range:-55°C~+150°C Non-Repetitive Peak Forward Surg"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01ed55e3-798e-4dcc-8409-829a04ab561e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3DModel_Q" "45e63ecf3acb471db76b916c5cf1fd6d"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "0a39cd3c-b2e0-4889-baa0-baa5f682ecdf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3D_Size" "6.5 4"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "1cada945-92cc-4015-a34d-c25aa685fcc3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part" "SL1545"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6161c47-a459-46eb-9e6f-a9d3f04a40ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "MDD(辰达半导体)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a540c39b-0568-44c4-9b3d-cf6f4affbe7d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Part" "C65022"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fb40850-0af1-41f3-aaf7-b0132dcb9aad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "LCSC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "adce02b1-e1fd-4f14-92a8-458778b100cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part Name" "电压:45V 电流:15A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c0e01d9-c493-4d9d-bb15-b03785322c83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -3.4725 2.159)
+		(end 1.8615 2.159)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "78ef482e-dfb3-4f67-ba2c-54e9d7bcc222")
+	)
+	(fp_line
+		(start 1.8615 -2.159)
+		(end -3.4725 -2.159)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "99eef525-e8c1-41a2-a59b-a777ee69f81a")
+	)
+	(fp_poly
+		(pts
+			(xy 0.6635 -0.02) (xy 1.1635 -0.52) (xy 1.1635 0.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "be0f2cef-d978-4805-ac93-9a83ff90ec84")
+	)
+	(fp_poly
+		(pts
+			(xy 0.6535 -0.06) (xy 1.1535 -0.56) (xy 1.1535 0.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "e7a9782f-4ff8-4602-b12b-a217c04c665d")
+	)
+	(fp_rect
+		(start -4.6665 -2.2755)
+		(end 2.91175 2.305433)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f8ca4834-a92a-4455-9889-dd08a15fbad7")
+	)
+	(fp_line
+		(start -3.5165 -2)
+		(end 1.8835 -2)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "efe00ecb-3410-4df0-bda6-1606578031a2")
+	)
+	(fp_line
+		(start -3.5165 2)
+		(end -3.5165 -2)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ba07786e-0c53-4e87-8748-9c79b05bb55b")
+	)
+	(fp_line
+		(start 1.8835 -2)
+		(end 1.8835 2)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9f88ac4e-25f1-4e0c-91ad-cf753edb9ea7")
+	)
+	(fp_line
+		(start 1.8835 2)
+		(end -3.5165 2)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7c06af50-4479-44ad-8d54-9f848fc7ac90")
+	)
+	(fp_poly
+		(pts
+			(xy 2.446933 1.977039) (xy 2.414461 1.944567) (xy 2.368539 1.944567) (xy 2.336067 1.977039) (xy 2.336067 2.022961)
+			(xy 2.368539 2.055433) (xy 2.414461 2.055433) (xy 2.446933 2.022961)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "6337bd00-bb11-4a89-8b7b-2f85488af4e5")
+	)
+	(fp_poly
+		(pts
+			(xy 1.8415 -1.37) (xy 2.3915 -1.37) (xy 2.3915 -0.47) (xy 1.8415 -0.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "b7a60146-13a7-4918-85db-a70e4c18b463")
+	)
+	(fp_poly
+		(pts
+			(xy 1.8415 0.47) (xy 2.3915 0.47) (xy 2.3915 1.37) (xy 1.8415 1.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "8fa7f57e-9908-40d1-9d31-0067b5a44440")
+	)
+	(fp_poly
+		(pts
+			(xy -3.3365 0.86) (xy -4.1565 0.86) (xy -4.1565 -0.94) (xy -3.3365 -0.94) (xy -3.3365 -1.6) (xy 0.2435 -1.6)
+			(xy 0.2435 1.48) (xy -3.3365 1.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "32e37ae8-afd0-4bbd-baa5-7b61ca62d289")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2c07dd48-a36b-44c9-9c67-7747c79c668b")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 2.0165 0.92)
+		(size 1.2905 1.4225)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4c330e63-fc32-46b0-b18a-8722bbbf5710")
+	)
+	(pad "2" smd rect
+		(at -2.0165 0 90)
+		(size 3.8 4.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d4a6701d-2b22-40b5-ac87-ead9df7b4089")
+	)
+	(pad "3" smd rect
+		(at 2.0165 -0.92)
+		(size 1.2905 1.4225)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cff9abb1-dd1a-44f9-9f7e-85a9f7720e48")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/EASYEDA_MODELS/TO-277_3P-L5.4-W4.0-H1.2-LS6.5-BR.step"
+		(offset
+			(xyz -0.877 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

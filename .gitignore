@@ -16,7 +16,7 @@
 *.kicad_dru
 *.kicad_pcb-bak
 *.kicad_pcb.orig
-*.kicad_mod
+# *.kicad_mod
 # Gerbers
 gerbers/
 # 3D

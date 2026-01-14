@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "T5848")(type "KiCad")(uri "${KIPRJMOD}/T5848.pretty")(options "")(descr ""))
   (lib (name "XT60-PW-M")(type "KiCad")(uri "${KIPRJMOD}/XT60-PW-M.pretty")(options "")(descr ""))
+  (lib (name "local_footprints")(type "KiCad")(uri "${KIPRJMOD}/local_footprints.pretty")(options "")(descr ""))
 )
